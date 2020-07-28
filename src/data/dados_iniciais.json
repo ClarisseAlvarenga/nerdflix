@@ -1,0 +1,182 @@
+{
+  "categorias": [
+    {
+      "titulo": "Nerducation",
+      "link": "https://www.youtube.com/channel/UClu474HMt895mVxZdlIHXEA",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "Por que gostamos de música? | Nerdologia",
+          "url": "https://www.youtube.com/watch?v=qKGUKDw1d5g"
+        },
+        {
+          "titulo": "O que é estatística",
+          "url": "https://youtu.be/sxQaBpKfDRk"
+        },
+        {
+          "titulo": "O efeito Doppler explicado",
+          "url": "https://www.youtube.com/watch?v=78WkQObqp3U"
+        },
+        {
+          "titulo": "Buracos Negros Explicados",
+          "url": "https://youtu.be/e-P5IFTqB98"
+        },
+        {
+          "titulo": "Há mais de dois sexos em humanos",
+          "url": "https://youtu.be/kT0HJkr1jj4"
+        },
+        {
+          "titulo": "Guia do primeiro contato",
+          "url": "https://www.youtube.com/watch?v=yosTuSwg-Is"
+        },
+        {
+          "titulo": "Expert em sotaques explica 6 linguas fictícias",
+          "url": "https://www.youtube.com/watch?v=oa6cHEJIjYI"
+        },
+        {
+          "titulo": "100 coisas que aprendemos em 2019",
+          "url": "https://www.youtube.com/watch?v=9csFte2QPXk"
+        }        
+      ]
+    },
+    {
+      "titulo": "História",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Uma torta para um rei",
+        "url": "https://youtu.be/upos2b7-O7s"
+      },
+      "videos": [
+        {
+          "titulo": "Como fazer sorvete - do jeito vitoriano",
+          "url": "https://youtu.be/9m0B9qkeq4g"
+        },
+        {
+          "titulo": "Como Vitorianas e Eduardianas fingiam ter suas cinturas minúsculas",
+          "url": "https://youtu.be/ZXbcPgfiB0Q"
+        },
+        {
+          "titulo": "Tutorial de Maquiagem - Vitoriano",
+          "url": "https://www.youtube.com/watch?v=kYubOOHN8xE"
+        },
+        {
+          "titulo": "The Butchering Art",
+          "url": "https://www.youtube.com/watch?v=r_zfe2sYZ4Q"
+        }, 
+        {
+          "titulo": "O Pão de Pompéia",
+          "url": "https://youtu.be/Sw2qrt6tOKw"
+        }
+      ]
+    },
+    {
+      "titulo": "Oliver Sacks",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "entrevistas e palestras",
+        "url": "https://www.youtube.com/channel/UCAV8cRQzDrcGh43MGuLxZyg"
+      },
+      "videos": [
+        {
+          "titulo": "O que alucinações revelam sobre nossas mentes",
+          "url": "https://www.youtube.com/watch?v=SgOTaXhbqPQ"
+        },
+        {
+          "titulo": "Sobre a escrita",
+          "url": "https://youtu.be/DrlmwEfXg7Y"
+        },
+        {
+          "titulo": "Awakening the Mind",
+          "url": "https://youtu.be/nnw64dKEjSY"
+        },
+        {
+          "titulo": "Porque nosso cérebro ama música",
+          "url": "https://youtu.be/KWTRQhF70k0"
+        }
+      ]
+    },
+    {
+      "titulo": "OverAnalisando",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Ciência vs Cinema - Perdido em Marte",
+          "url": "https://youtu.be/KCxQ3hYHrZk"
+        },
+        {
+          "titulo": "Como a música de Sweeney Todd dá spoilers sobre a história",
+          "url": "https://youtu.be/a4K-9Ekzc2A"
+        },
+        {
+          "titulo": "O segredo da voz de Freddie Mercury",
+          "url": "https://youtu.be/p3MjsrMNCbU"
+        },
+        {
+          "titulo": "Como Knives Out mudou de gênero - duas vezes",
+          "url": "https://youtu.be/AfF7-vJJBNY"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Zelda",
+          "url": "https://www.youtube.com/watch?v=ci8HQFF6d5A"
+        },
+        {
+          "titulo": "Assassins Creed",
+          "url": "https://www.youtube.com/watch?v=4qGAjgUZwsk"
+        },
+        {
+          "titulo": "Luigi vs Mario",
+          "url": "https://www.youtube.com/watch?v=GP7aP67qQjQ"
+        },
+        {
+          "titulo": "Portal",
+          "url": "https://www.youtube.com/watch?v=aj8NDOA0Sgw"
+        },
+        {
+          "titulo": "FNAF",
+          "url": "https://www.youtube.com/watch?v=6E2JX6l2C4U"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    }
+  ]
+}
+
