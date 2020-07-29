@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './pages/Home/App';
+import CadastroVideo from './pages/cadastro/Video'
+import CadastroCategoria from './pages/cadastro/Categoria'
 import * as serviceWorker from './serviceWorker';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
+const Pagina404 = () => { return (<a href="https://clarissealvarenga.github.io/imersao_gamedev_alura/"> (ERRO 404) - DESCULPE, NÃO ENCONTRAMOS A PÁGINA - QUE TAL UM JOGUINHO? </a>)}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route path='/' component={Home} exact />
+      <Route path='/cadastro/video' component={CadastroVideo} />
+      <Route path='/cadastro/categoria' component={CadastroCategoria} />
+      <Route component={Pagina404} />
+
+    </Switch>
+  
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
