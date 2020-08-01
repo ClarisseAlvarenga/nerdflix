@@ -70,6 +70,7 @@ function CadastroVideo() {
           value={values.categoria}
           onChange={handleChange}
           suggestions={categoryTitles}
+          
         />
 
         <Button type="submit">

@@ -57,6 +57,14 @@
         "text": "As melhores histórias de Karens"
       },
       "id": 7
+    },
+    {
+      "titulo": "Excel Expert",
+      "cor": "#03b025",
+      "link_extra": {
+        "text": "As melhores dicas de Excel"
+      },
+      "id": 8
     }
   ],
   "videos": [
@@ -269,6 +277,66 @@
       "url": "https://youtu.be/Y-UuJGqhFXc",
       "categoriaId": 4,
       "id": 35
+    },
+    {
+      "titulo": "7 Passos para criar suas planilhas",
+      "url": "https://youtu.be/J97VO1wXWoQ",
+      "categoriaId": 8,
+      "id": 36
+    },
+    {
+      "titulo": "Falando com seu usuário",
+      "url": "https://youtu.be/0F1ZPLT8u28",
+      "categoriaId": 8,
+      "id": 37
+    },
+    {
+      "titulo": "Dicas Excel",
+      "url": "https://youtu.be/0BBemg_AV48",
+      "categoriaId": 8,
+      "id": 38
+    },
+    {
+      "titulo": "MacGyver e a Borrachinha",
+      "url": "https://youtu.be/ex4PoubJCGM",
+      "categoriaId": 8,
+      "id": 39
+    },
+    {
+      "titulo": "Calculando datas e horas no Excel",
+      "url": "https://youtu.be/q8ylSR4mpoE",
+      "categoriaId": 8,
+      "id": 40
+    },
+    {
+      "titulo": "Atualizando sua tabela dinâmica",
+      "url": "https://youtu.be/ucBunjAn0S0",
+      "categoriaId": 8,
+      "id": 41
+    },
+    {
+      "titulo": "r/ChoosingBeggars",
+      "url": "https://youtu.be/41J-bhel16c",
+      "categoriaId": 7,
+      "id": 42
+    },
+    {
+      "titulo": "StoryTime - Entitled Parents",
+      "url": "https://youtu.be/wEMC9VhL-Zw",
+      "categoriaId": 7,
+      "id": 43
+    },
+    {
+      "titulo": "Nice Mendigos",
+      "url": "https://youtu.be/UojggV3QEYk",
+      "categoriaId": 7,
+      "id": 44
+    },
+    {
+      "titulo": "Quartas Reddit",
+      "url": "https://youtu.be/7RXausyGh8I",
+      "categoriaId": 7,
+      "id": 45
     }
   ]
 }
