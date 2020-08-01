@@ -11,13 +11,11 @@ const Pagina404 = () => { return (<a href="https://clarissealvarenga.github.io/i
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path='/' component={Home} exact />
-      <Route path='/cadastro/video' component={CadastroVideo} />
-      <Route path='/cadastro/categoria' component={CadastroCategoria} />
+      <Route path="/" component={Home} exact />
+      <Route path="/cadastro/video" component={CadastroVideo} />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} />
       <Route component={Pagina404} />
-
     </Switch>
-  
   </BrowserRouter>,
   document.getElementById('root')
 );

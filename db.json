@@ -1,10 +1,274 @@
 {
-    "categorias":[{
-
-        "id": 1,
-        "nome": "Front End",
-        "descricao":"Uma categoria Teste",
-        "cor":"#cbd1ff"
-    }]
-
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Nerducation",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "História",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Uma torta para um rei",
+        "url": "https://youtu.be/upos2b7-O7s"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Oliver Sacks",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "entrevistas e palestras",
+        "url": "https://www.youtube.com/channel/UCAV8cRQzDrcGh43MGuLxZyg"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "OverAnalisando",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      }
+    },
+    {
+      "titulo": "Reddit",
+      "cor": "#2208e7",
+      "link_extra": {
+        "text": "As melhores histórias de Karens"
+      },
+      "id": 7
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Por que gostamos de música? | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=qKGUKDw1d5g"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "O que é estatística",
+      "url": "https://youtu.be/sxQaBpKfDRk"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "O efeito Doppler explicado",
+      "url": "https://www.youtube.com/watch?v=78WkQObqp3U"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Buracos Negros Explicados",
+      "url": "https://youtu.be/e-P5IFTqB98"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Há mais de dois sexos em humanos",
+      "url": "https://youtu.be/kT0HJkr1jj4"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Guia do primeiro contato",
+      "url": "https://www.youtube.com/watch?v=yosTuSwg-Is"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Expert em sotaques explica 6 linguas fictícias",
+      "url": "https://www.youtube.com/watch?v=oa6cHEJIjYI"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "100 coisas que aprendemos em 2019",
+      "url": "https://www.youtube.com/watch?v=9csFte2QPXk"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Como fazer sorvete - do jeito vitoriano",
+      "url": "https://youtu.be/9m0B9qkeq4g"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Como Vitorianas e Eduardianas fingiam ter suas cinturas minúsculas",
+      "url": "https://youtu.be/ZXbcPgfiB0Q"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Tutorial de Maquiagem - Vitoriano",
+      "url": "https://www.youtube.com/watch?v=kYubOOHN8xE"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "The Butchering Art",
+      "url": "https://www.youtube.com/watch?v=r_zfe2sYZ4Q"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "O Pão de Pompéia",
+      "url": "https://youtu.be/Sw2qrt6tOKw"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "O que alucinações revelam sobre nossas mentes",
+      "url": "https://www.youtube.com/watch?v=SgOTaXhbqPQ"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Sobre a escrita",
+      "url": "https://youtu.be/DrlmwEfXg7Y"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Awakening the Mind",
+      "url": "https://youtu.be/nnw64dKEjSY"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Porque nosso cérebro ama música",
+      "url": "https://youtu.be/KWTRQhF70k0"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Ciência vs Cinema - Perdido em Marte",
+      "url": "https://youtu.be/KCxQ3hYHrZk"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Como a música de Sweeney Todd dá spoilers sobre a história",
+      "url": "https://youtu.be/a4K-9Ekzc2A"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "O segredo da voz de Freddie Mercury",
+      "url": "https://youtu.be/p3MjsrMNCbU"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Como Knives Out mudou de gênero - duas vezes",
+      "url": "https://youtu.be/AfF7-vJJBNY"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Zelda",
+      "url": "https://www.youtube.com/watch?v=ci8HQFF6d5A"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Assassins Creed",
+      "url": "https://www.youtube.com/watch?v=4qGAjgUZwsk"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Luigi vs Mario",
+      "url": "https://www.youtube.com/watch?v=GP7aP67qQjQ"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Portal",
+      "url": "https://www.youtube.com/watch?v=aj8NDOA0Sgw"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "FNAF",
+      "url": "https://www.youtube.com/watch?v=6E2JX6l2C4U"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "text": "Cursos de Data Science na Alura",
+      "url": "https://www.alura.com.br/formacao-data-science"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Teste de Turing",
+      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "O que é Data Science?",
+      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Melhor forma de aprender Python",
+      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Como ingressar no mercado de Data Science?",
+      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+    },
+    {
+      "titulo": "5 anos usando roupas do século XVIII",
+      "url": "https://youtu.be/DyWnm0Blmh4",
+      "categoriaId": 2,
+      "id": 32
+    },
+    {
+      "titulo": "Título do Vídeo",
+      "url": "https://youtu.be/jJQ5sFVfTr4",
+      "categoriaId": 7,
+      "id": 33
+    },
+    {
+      "titulo": "Live Ideas - Radiolab",
+      "url": "https://youtu.be/9kxb1UvyN54",
+      "categoriaId": 3,
+      "id": 34
+    },
+    {
+      "titulo": "A música louca do Coringa",
+      "url": "https://youtu.be/Y-UuJGqhFXc",
+      "categoriaId": 4,
+      "id": 35
+    }
+  ]
 }

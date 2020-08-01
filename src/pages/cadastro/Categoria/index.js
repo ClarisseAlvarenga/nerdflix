@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button'
+import  useForm from '../../../hooks/useForm'
+import categoriasRepository from '../../../repositories/categorias'
+
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -10,30 +13,16 @@ function CadastroCategoria() {
     descricao: '',
     cor: '',
   };
+
+  const {handleChange, values, clearForm}= useForm(valoresIniciais)
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
-    console.log('Alow brasil');
-    const URL = window.location.hostname.includes('localhost')
-    ? 'http://localhost:8080/categorias'
-    : 'https://kikaprime.herokuapp.com/categorias';
 
-    fetch(URL)
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://kikaprime.herokuapp.com/categorias';
+    fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
         setCategorias([
@@ -41,8 +30,8 @@ function CadastroCategoria() {
         ]);
       });
 
+    
   }, []);
-
 
   return (
     <PageDefault>
@@ -53,21 +42,26 @@ function CadastroCategoria() {
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
-
         setCategorias([
           ...categorias,
           values,
         ]);
-
-        setValues(valoresIniciais);
+        categoriasRepository.create({
+          titulo: values.titulo,
+          cor: values.cor,
+          link_extra: {
+            text: values.descricao
+          },
+        });
+        clearForm();
       }}
       >
 
         <FormField
-          label="Nome da Categoria"
+          label="Nome da categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -95,7 +89,7 @@ function CadastroCategoria() {
       <ul>
         {categorias.map((categoria, indice) => (
           <li key={`${categoria}${indice}`}>
-            {categoria.nome}
+            {categoria.titulo}
           </li>
         ))}
       </ul>
